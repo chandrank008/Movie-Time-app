@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="chandran">
+        <meta name="description" content="This is page contain all the
+    things i learned for how to create a html web page">
+	<title> my website </title>
+    <link rel="icon"  href="HTML5.png" type="image/x-icon">
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            
+
+        }
+
+        h1{
+            margin:0;
+            border: 2px;
+            padding: 10px;
+            font-size: 75px;
+            text-align: center;
+        }
+        h2{
+            margin:0;
+            border:2px;
+            font-size: 65px;
+            text-align: center;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column; /* Stack videos vertically */
+            align-items: center; /* Center videos horizontally */
+            height: 100vh; /* Full viewport height */
+            justify-content: center; /* Center videos vertically */
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px; /* Space between videos */
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); /* Adding shadow */
+        }
+    
+    </style>
+    <body>
+        <body>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    
+            <h1 style="background-color: gray; color: white;"><strong>Tamilyogi</strong> </h1>
+            <br>
+            <br>
+            <br>
+    
+            <h2 style="background-color: lightgreen;"><strong>Tamil Dubbed HD Movies</strong></h2>
+            <br>
+            <br>
+            <br>
+            <h2 style="background-color: blue;color: white;"><strong>godzilla x kong the new empire(2024)</strong></h2>
+            <div class="video-container">
+                <video id="dropboxVideo" width="900" height="500" controls>
+                    <source src="https://dl.dropboxusercontent.com/scl/fi/tuh6ds897sghg3wgguwux/www.1TamilMV.eu-Godzilla-x-Kong-The-New-Empire-2024-v2-HQ-HDRip-1080p-x264-DD-5.1-640Kbps-Tam-Tel-Hin-Eng.mkv?rlkey=bdhfjxydkvahvp6d8kmkjezq3&st=xqvewp9a&dl=0.mp4?rlkey" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+           
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                var video = document.getElementById('dropboxVideo');
+                video.play();
+                });
+
+               
+            </script>
+    </body>
+</html>
